@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    padding: 16px 0;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section h2{
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+header .container, header section{
+    display: flex;
+    align-items: center;
+    
+}
+
+header section img {
+    margin-right: 24px;
+}
+
+header h1{
+    font-size: xx-large;
+    font-family: 'Bungee', sans-serif;
+}
+
+header .container{
+    justify-content: space-between;
+
+}
+
+h2{
+    margin-top: 16px;
+    background-color: rgb(146, 146, 146);
+    padding-left: 12px;
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+section{
+    padding: 24px 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+section p{
+    font-style: italic;
+}
+
+#about img{
+    border-radius: 30px;
+    margin-right: 32px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section header{
+    color: gray;
+    font-size: smaller;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section h3{
+    padding: 8px 0;
+}
+
+section .contact, section .about{
+    display: flex;
+    justify-content: space-between;
+}
+
+section p{
+    padding: 0px 30pxpx 30px 0px;
+}
+
+button{
+    border: none;
+    padding: 10px 8px;
+    margin-top: 15px;
+    background-color: rgb(8, 8, 8);
+    color: #ecf0f1;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+
+#about img{
+    background-color: rgb(8, 8, 8);
+}
+
+#about h3{
+    margin-top: 50px;
+}
+.social-links img{
+    width: 32px;
+}
+
+.social-links li{
+    display: flex;
+    margin: 8px;
+}
+
+.social-links a, .social-links p{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bungee', sans-serif;
+    display: inline;
+    font-size: small;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 160px;
+}
+
+footer{
+    background-color: rgb(8, 8, 8);
+    color: #ecf0f1;
+    padding: 16px 0;
+}
